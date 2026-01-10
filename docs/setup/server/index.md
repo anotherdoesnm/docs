@@ -38,8 +38,8 @@ cd server
 # Install javascript packages
 npm i
 
-# Build and generate schema. Separately, they are `build` and `generate:schema`.
-npm run setup
+# Build and generate schema + openapi. Separately, they are `build:src`, `generate:schema` and `generate:openapi`.
+npm run build
 
 # Start the bundle server ( API, CDN, Gateway in one )
 npm run start
