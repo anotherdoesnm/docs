@@ -13,7 +13,7 @@ of Discord's client-server API, with the goal of complete feature parity with di
 all while adding some additional goodies, security, privacy, and configuration options.
 
 {{ project.name }} allows you to host a complete, discord.com-compatible chat service
-with complete control over it's content, usage, security, configuration, and featureset.
+with complete control over its content, usage, security, configuration, and featureset.
 Being discord.com-compatible will allow all existing clients, bots, and applications written for
 discord.com to be used on any {{ project.name }} instance, which we believe will be immensely useful
 for any transition process between services.
