@@ -18,7 +18,7 @@ Being discord.com-compatible will allow all existing clients, bots, and applicat
 discord.com to be used on any {{ project.name }} instance, which we believe will be immensely useful
 for any transition process between services.
 
-As {{ project.name }} is an entirely separate service from discord.com, it means a {{ project.name }} server by itself **cannot**
+As {{ project.name }} is an entirely separate service from discord.com, a {{ project.name }} server by itself **cannot**
 access private data controlled by discord.com. You **cannot** use a {{ project.name }} server to chat with your friends on discord.com.
 You also **cannot** use a {{ project.name }} server to grant premium ("Nitro") features to a discord.com account (although you can grant these to a {{ project.name }} account).
 
