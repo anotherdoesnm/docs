@@ -2,11 +2,11 @@
 
 ??? info "Is {{ project.name }} still in development? Production Ready?"
 
-    Yes, {{ project.name }} is still in development. Our unpaid team of volunteers is very small though, and so progress is very dependant on our motivation
+    Yes, {{ project.name }} is still in development. Our unpaid team of volunteers is very small though, so progress is very dependent on our motivation
     and outside life.
 
     The [{{ project.name }} server]({{ repositories.base_url }}/{{ repositories.server }}) program has been in development since at least 28/11/2020,
-	and has most core features implemented. API compatibility is reasonable although not quite perfect and so some third party clients may not function,
+	and has most core features implemented. API compatibility is reasonable, although not quite perfect; some third party clients may not function,
     although the official Discord.com client which we test against functions correctly for the most part.
 
     The big Discord.com features currently left unimplemented or with partial implementations are:
@@ -18,7 +18,7 @@
     * Pomelo (new username system without discriminators)
     * Auto moderation
 
-    For a more complete overview of what is left unimplemented, please refer to [the missing routes viewer](./contributing/server/missingroute.md)
+    For a more complete overview of what is left unimplemented, please refer to [the missing routes viewer](./contributing/server/missingroute.md).
 
     The [{{ project.name }} client]({{ repositories.base_url }}/{{ repositories.client }}) however is very premature, starting development around 1/03/2023.
     It is not ready production use or as your daily driver. It lacks many core features and is not recommended to be used.
@@ -49,12 +49,12 @@
 
 ??? info "How do I boost my guild? Or, how do I buy premium?"
 
-    You cannot buy premium features through {{ project.name }}, as {{ project.name }} does not support any payment backend.
+    You cannot buy premium features through {{ project.name }} as {{ project.name }} does not support any payment backend.
 
     Additionally, {{ project.name }} does not currently have any distinction between premium and free users or guilds.
     All users and guilds have access to all features server-side.
 
-    In the case of users, you may run into issues with the client preventing you from using certain features,
+    In the case of users, you may run into issues with the client preventing you from using certain features
     if the user's `premium_type` or `premium` values are not set correctly. By default, {{ project.name }} will do this for you, however.
 
     In the case of guilds, you may run into issues with uploading animated icons or banners, etc.
@@ -108,7 +108,7 @@
 ??? info "Editing the database is annoying, is there a graphical interface for this?"
 
     Currently no, there is no graphical interface for managing your {{ project.name }} instance.
-    An admin dashboard is planned, but we currently have higher priorities right now.
+    An admin dashboard is planned, but we currently have higher priorities.
 
 ??? info "When will this feature be available?"
 
