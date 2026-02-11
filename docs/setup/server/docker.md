@@ -14,6 +14,7 @@ docker run \
   --name spacebar-db \
   --network spacebar-network \
   -e POSTGRES_PASSWORD=postgres \
+  -v spacebar-db:/var/lib/postgresql \
   postgres:alpine
 ```
 
