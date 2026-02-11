@@ -20,5 +20,6 @@ in the `{{ project.name.lower() }}-server` folder, with the format `NAME=VALUE` 
 | STORAGE_PROVIDER | "s3" or "file" | CDN storage provider                                                                                                                           |
 | STORAGE_BUCKET   | string         | S3 bucket name                                                                                                                                 |
 | STORAGE_REGION   | string         | S3 storage region                                                                                                                              |
+| STORAGE_ENDPOINT | string         | Custom S3 endpoint. Only used when STORAGE_PROVIDER = "s3". Defaults to "https://s3.${region}.amazonaws.com"                                   |
 | DB_LOGGING       | boolean        | If "true", logs all SQL queries to the terminal                                                                                                |
 | LOG_REQUESTS     | filter         | What requests to log, per response code (eg. `-200` to log every non-200 response code, or `404` to log requests with a Not Found status code) |
