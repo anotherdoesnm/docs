@@ -27,7 +27,7 @@ In your terminal:
 git clone {{ repositories.base_url }}/{{ repositories.server }}.git
 
 # Navigate to project root
-cd server/extras/admin-api/Spacebar.AdminAPI
+cd server/extra/admin-api/Spacebar.AdminApi
 
 # Configure Admin API (ignore JSON comment warnings)
 nvim appsettings.Development.json
@@ -36,7 +36,7 @@ nvim appsettings.Development.json
 dotnet build -c Release
 
 # Start the Admin API
-dotnet bin/Release/net9.0/Spacebar.AdminAPI.dll
+dotnet bin/Release/net9.0/Spacebar.AdminApi.dll
 ```
 
 ## Setup Test Client (optional)
@@ -45,7 +45,7 @@ We're assuming you're in the same directory as where you built the admin api:
 
 ```sh
 # Navigate to project root
-cd ../Utilities/Spacebar.AdminAPI.TestClient
+cd ../Utilities/Spacebar.AdminApi.TestClient
 
 # Start the Test Client
 dotnet run -c Release
